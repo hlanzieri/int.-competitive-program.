@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int resp, x=0;
+    while(resp!=2018){
+        resp=0;
+        cin >> resp;
+        if(resp!=2018){
+            x++;
+        }
+    }
+        cout << endl;
+        cout << x;
+
+    return 0;
+}
